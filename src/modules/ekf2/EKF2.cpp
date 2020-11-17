@@ -207,6 +207,7 @@ int EKF2::print_status()
 		     _ekf.local_position_is_valid(), _ekf.global_position_is_valid());
 	perf_print_counter(_ecl_ekf_update_perf);
 	perf_print_counter(_ecl_ekf_update_full_perf);
+	_ekf.print_status();
 	return 0;
 }
 
