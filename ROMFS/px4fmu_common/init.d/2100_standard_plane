@@ -21,8 +21,8 @@
 
 sh /etc/init.d/rc.fw_defaults
 
-set MIXER AETRFG
-
+#set MIXER AETRFG
+set MIXER DDD
 set PWM_RATE 50
 set PWM_AUX_RATE 50
 
