@@ -1,0 +1,7 @@
+module_name: FT205ev
+serial_config:
+    - command: ft205ev start -d ${SERIAL_DEV}
+      port_config_param:
+        name: SENS_FT205EV_CFG
+        group: Sensors
+
